@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello Viewer</title>
+    <meta charset="utf-8">
+</head>
+<body>
+   <form>
+     <table border="5" cellspacing="10" cellpadding="10">
+       <tr>
+         <th>Name</th>
+         <td input type="text" size="30" maxlength="50" placeholder="Enter your name" required pattern="[a-zA-Z]"{10} title="Incorrect Name"></td>
+       </tr>
+
+       <tr>
+         <th>Email</th>
+         <td input type="email" size="30" maxlength="15" placeholder="Enter your email" required></td>
+       </tr>
+
+       <tr>
+        <th>Password</th>
+        <td input type="Password" size="30" maxlength="15" placeholder="Enter your email" required pattern="[0-9a-zA-z]"{13} title="Incorrect Password"></td>
+      </tr>
+
+      <tr>
+        <th>Date of Birth</th>
+        <td input type="determine-local" required></td>
+      </tr>
+      
+      <tr>
+        <th colspan="2">Submit Form</th>
+        <td input type="Submit" formaction="user.txt" required></td>
+      </tr>
+
+
+
+
+     </table>
+   </form>
+</body> 
+</html>
